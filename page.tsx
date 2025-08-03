@@ -4,9 +4,9 @@ import { FeaturesSection } from "@/components/landing/FeaturesSection";
 import { DashboardShowcaseSection } from "@/components/landing/DashboardShowcaseSection";
 import { AIFeaturesSection } from "@/components/landing/AIFeaturesSection";
 import { MobileAppsSection } from "@/components/landing/MobileAppsSection";
-import { ArgumentsSection } from "@/components/landing/ArgumentsSection";
 import { BenefitsSection } from "@/components/landing/BenefitsSection";
 import { TestimonialsSection } from "@/components/landing/TestimonialsSection";
+import { CTASection } from "@/components/landing/CTASection";
 import { LandingFooter } from "@/components/landing/LandingFooter";
 
 export default function Home() {
@@ -18,10 +18,10 @@ export default function Home() {
       <DashboardShowcaseSection />
       <AIFeaturesSection />
       <MobileAppsSection />
-      <ArgumentsSection />
       <BenefitsSection />
       <TestimonialsSection />
+      <CTASection />
       <LandingFooter />
     </div>
   );
-}
+} 
